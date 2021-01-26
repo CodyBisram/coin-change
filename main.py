@@ -12,7 +12,7 @@ def get_combinations(coins_dict, target):
 
 	while True:
 		total = 0
-		incrementLastCoin = True
+		increment_last_coin = True
 		
 		# Calculate total
 		for i, count in enumerate(counts):
@@ -34,11 +34,11 @@ def get_combinations(coins_dict, target):
 				# increase carryover and zero out current coin
 				counts[i] = 0
 				counts[i-1] += 1
-				incrementLastCoin = False
+				increment_last_coin = False
 				break
 
 		# If last coin is reset, don't increment or 0s will not be tested
-		if incrementLastCoin:
+		if increment_last_coin:
 			counts[len(coins_list)-1] += 1
 
 def get_header_format(curr_dict, type):
