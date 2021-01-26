@@ -1,7 +1,5 @@
 ## Assignment Explanation
 
-*Assignment was completed using Python 3.7.3* 
-
 The following program outputs the number of ways pennies, nickels, dimes, and quarters can be combined to sum exactly $1.00. The algorithm outputs all the valid combinations, as well as the total count of combinations possible.
 
 The application also produces the same output, but for an arbitrary set of currency names and denominations, and for an arbitrary total sum (given the user's input). 
@@ -23,6 +21,8 @@ should produce the following output:
     Count: 6
 
 ## Build Procedure
+
+*Assignment was completed using Python 3.7.3* 
 
 `python main.py Coin,1.5,Arrowhead,3,Button,150`
 
